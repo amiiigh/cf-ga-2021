@@ -101,7 +101,6 @@ class TextRewriter {
         this.newText = newText
     }
     element(element) {
-        console.log(this.newText)
         element.setInnerContent(this.newText)
     }
 }
